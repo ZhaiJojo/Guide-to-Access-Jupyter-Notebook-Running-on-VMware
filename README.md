@@ -7,7 +7,7 @@ Virtual machine OS: Ubuntu 16.04
 The steps below may not all be necessary, while I am to lazy to check which are necessary ones.
 Assume you have already installed jupyte notebook and can access it in your virtual machine.
 
-Step 1: Turn off firewall. Commands: (need root privilege)
+Step 1: Turn off firewall of virtual machine. Commands: (need root privilege)
 
 ```
 ufw disable
@@ -19,7 +19,7 @@ iptables -F
 
 Reference: https://blog.csdn.net/fengpenglang/article/details/6775114
 
-Step 2: Modify Jupyter configuration.
+Step 2: Modify Jupyter configuration in virtual machine.
 
 ```
 jupyter notebook --generate-config
@@ -53,7 +53,7 @@ Now you can start your Jupyter in virtual machine:
 jupyter notebook
 ```
 
-Cpoy the url generated to a browser in your host machine and you can see the familiar interface.
+Cpoy the url generated to a browser in your host machine and you can see the familiar interface of Jupyter.
 
 
 
