@@ -25,6 +25,8 @@ Step 2: Modify Jupyter configuration.
 jupyter notebook --generate-config
 ```
 
+Then a file will be generated and its path will be shown.
+
 Get IP address of your virtual machine:
 
 ```
